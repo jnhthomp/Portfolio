@@ -1,0 +1,28 @@
+@import '../../vars.css';
+
+div.navContainer {
+  position: fixed;
+  top: 0;
+  width:100vw;
+  height: auto;
+  padding: 20px 14.284% 20px 14.284%;
+  background-color: var(--clr-background-800);
+  border-bottom: 5px solid var(--clr-accent-100);
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+div.navContainer > ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--clr-text-100);
+}
+
+.active {
+  color: var(--clr-accent-600);
+  font-weight: 700;
+}
