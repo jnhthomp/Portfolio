@@ -1,0 +1,12 @@
+:root {
+  /* !Colors */
+  --clr-background-800: rgb(29, 36, 46);
+  
+  --clr-accent-100: rgb(87, 191, 199);
+  --clr-accent-400: rgba(185, 46, 190, 0.75);
+  --clr-accent-600: rgb(138, 47, 85);
+
+  --clr-text-100: rgb(255, 255, 255);
+  --clr-text-200: rgb(184, 186, 197);
+}
+
