@@ -8,5 +8,8 @@
 
   --clr-text-100: rgb(255, 255, 255);
   --clr-text-200: rgb(184, 186, 197);
+
+  --nav-height: 5vh;
+  --nav-min-height: 30px;
 }
 
