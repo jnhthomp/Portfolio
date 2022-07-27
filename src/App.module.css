@@ -1,4 +1,16 @@
-/* Temporary class to test that the fixed navbar position is working */
-.tallTest {
-  height: 500vh;
+.formContainer {
+  padding: 10px 10px 10px 20px;
+  height: 90%;
+}
+
+/* Form heading style */
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.heroContainer {
+  display: flex;
+  align-items: start;
 }

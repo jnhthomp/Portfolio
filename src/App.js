@@ -1,13 +1,47 @@
-import logo from './logo.svg';
+import React from 'react';
 import classes from './App.module.css';
 import Navbar from './Components/Navbar/Navbar';
-import React from 'react';
+import AboutSection from './Components/AboutSection/AboutSection';
+import ContactForm from './Components/ContactForm/ContactForm';
+import Hero from './Components/Hero/Hero';
+import heroImg from './Assets/hero1.jpg'; // change import here (or add more) to change
+import AboutDescription from './Components/AboutDescription/AboutDescription';
 
-function App() {
+function App(){
+  // If making a hero image picture changer...
+  // 1. import all hero images that will be used
+  // 2. Add all to array
+  // 3. Set timer to cycle through array to change what image is being sourced
+
+  const submitFormHandler = (e) => {
+    e.preventDefault()
+    console.log('App.js: Form submitted')
+  }
+
   return (
     <React.Fragment>
       <div className={classes.tallTest}>
         <Navbar />
+        <AboutSection>
+          {/* Start About-Left */}
+          <div> 
+            <h1>Jonah Thompson</h1>
+            <div className={classes.formContainer}>
+              <ContactForm onFormSubmit={submitFormHandler}/>
+            </div>
+          </div>
+          {/* End About-Left */}
+          {/* Start About-Center */}
+          <div className={classes.heroContainer}>
+            <Hero heroImg={heroImg}/>
+          </div>
+          {/* End About-Center */}
+          {/* Start About-Right */}
+          <div>
+            <AboutDescription />
+          </div>
+        </AboutSection>
+        
       </div>
     </React.Fragment>
   );
