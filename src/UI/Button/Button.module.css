@@ -1,0 +1,8 @@
+.btn {
+  color: var(--clr-text-100);
+  background-color: var(--clr-accent-600);
+  width: 40%;
+  min-width: 200px;
+  align-self: center;
+  margin: 2rem
+}
