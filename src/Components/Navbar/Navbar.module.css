@@ -1,16 +1,17 @@
 @import '../../vars.css';
 
 div.navContainer {
-  position: fixed;
+  position: sticky;
   top: 0;
   width:100vw;
-  height: auto;
+  height: var(--nav-height);
+  min-height: var(--nav-min-height);
   padding: 20px 14.284% 20px 14.284%;
   background-color: var(--clr-background-800);
   border-bottom: 5px solid var(--clr-accent-100);
   display: flex;
   align-items: center;
-  font-size: 1.25rem;
+  font-size: 2.5rem;
 }
 
 div.navContainer > ul {
