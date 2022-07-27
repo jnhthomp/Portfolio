@@ -1,0 +1,9 @@
+.section {
+  height: calc(100vh - var(--nav-height));
+  /* Allows easy change of navbar height */
+}
+
+.greySection {
+  background-color: var(--clr-background-800);
+  color: var(--clr-text-100);
+}
