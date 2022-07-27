@@ -1,0 +1,37 @@
+.positionDescription {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items:baseline;
+  margin-bottom: 1rem;
+}
+
+.positionDescription > h3 {
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.positionDescription > span {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+.selfDescription {
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.btnText {
+  font-size: 2rem;
+}
+
+.resumeBtnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.socialsContainer {
+  display: flex;
+  justify-content: center;
+}
