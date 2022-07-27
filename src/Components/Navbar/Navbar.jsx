@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className={classes.navContainer}>
       <ul>
-        <li class={classes.active}>Home</li>
+        <li className={classes.active}>Home</li>
         <li>Projects</li>
         <li>Experience</li>
         <li>Skills</li>
