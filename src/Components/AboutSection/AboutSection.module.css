@@ -1,0 +1,12 @@
+/* Arrange sections of about page*/
+.aboutSectionLayout {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+/* Arrange sections of about page */
+.aboutSectionLayout>div {
+  width: 30%
+}
