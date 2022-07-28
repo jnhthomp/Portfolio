@@ -1,6 +1,7 @@
 :root {
   /* !Colors */
   --clr-background-800: rgb(29, 36, 46);
+  --clr-background-600: rgb(28, 18, 66);
   
   --clr-accent-100: rgb(87, 191, 199);
   --clr-accent-400: rgba(185, 46, 190, 0.75);
