@@ -7,3 +7,8 @@
   background-color: var(--clr-background-800);
   color: var(--clr-text-100);
 }
+
+.purpleSection {
+  background-color: var(--clr-background-600);
+  color: var(--clr-text-100);
+}
