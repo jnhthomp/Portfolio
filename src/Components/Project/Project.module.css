@@ -1,0 +1,16 @@
+.project {
+  padding: 1rem;
+}
+.project > h5 {
+  color: var(--clr-text-100);
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.project > p {
+  font-size: 1.8rem;
+}
+
+.project > p > code {
+  color: var(--clr-accent-100)
+}
