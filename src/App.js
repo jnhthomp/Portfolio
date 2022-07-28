@@ -6,6 +6,8 @@ import ContactForm from './Components/ContactForm/ContactForm';
 import Hero from './Components/Hero/Hero';
 import heroImg from './Assets/hero1.jpg'; // change import here (or add more) to change
 import AboutDescription from './Components/AboutDescription/AboutDescription';
+import ProjectSection from './Components/ProjectSection/ProjectSection';
+import ProjectShowcase from './Components/ProjectShowcase/ProjectShowcase';
 
 function App(){
   // If making a hero image picture changer...
@@ -14,14 +16,16 @@ function App(){
   // 3. Set timer to cycle through array to change what image is being sourced
 
   const submitFormHandler = (e) => {
-    e.preventDefault()
+  e.preventDefault()
     console.log('App.js: Form submitted')
   }
 
   return (
     <React.Fragment>
       <div className={classes.tallTest}>
+        {/* Navbar */}
         <Navbar />
+        {/* About... */}
         <AboutSection>
           {/* Start About-Left */}
           <div> 
@@ -41,6 +45,13 @@ function App(){
             <AboutDescription />
           </div>
         </AboutSection>
+        {/* Projects */}
+        <ProjectSection>
+          <div className={classes.projectsHeaderContainer}>
+            <h2 className={classes.projectSectionHeader}>Projects</h2>
+          </div>
+          <ProjectShowcase />
+        </ProjectSection>
         
       </div>
     </React.Fragment>

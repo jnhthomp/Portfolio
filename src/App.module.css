@@ -10,6 +10,20 @@ h1 {
   padding-left: 20px;
 }
 
+.projectsHeaderContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 2rem 0;
+}
+
+h2.projectSectionHeader {
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 3px solid var(--clr-accent-400);
+  width: 10%;
+  padding-bottom: .25rem;
+}
+
 .heroContainer {
   display: flex;
   align-items: start;
