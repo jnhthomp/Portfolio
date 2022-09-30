@@ -3,7 +3,6 @@ import baseClasses from './Styles/BaseStyles.module.css';
 import Navbar from './Components/Navbar/Navbar';
 import AboutSection from './Components/AboutSection/AboutSection';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
-import ProjectShowcase from './Components/ProjectSection/ProjectShowcase/ProjectShowcase';
 import SkillsSection from './Components/SkillsSection/SkillsSection';
 
 function App(){
