@@ -16,6 +16,12 @@
 
 .socHoriz > a {
   display: block;
+  background: linear-gradient(215deg, var(--clr-400), var(--clr-500));
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 60px;
+  padding: .5rem;
+  transition: all .2s ease-in-out;
 }
 
 svg path{

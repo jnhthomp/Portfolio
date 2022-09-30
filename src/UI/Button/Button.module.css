@@ -8,6 +8,11 @@
   font-weight: 400;
   padding: 1em 2em;
   width: fit-content;
+  transition: all .3s ease-in-out;
 }
 
 /* TODO: Add .btn hover effects */
+.btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(215deg, var(--clr-200), var(--clr-400));
+}
