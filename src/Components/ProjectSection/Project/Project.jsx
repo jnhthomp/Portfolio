@@ -1,6 +1,8 @@
 import React from 'react';
 import classes from './Project.module.css';
 
+// TODO: Add links to github/live version
+
 const Project = (props) => {
   return (
     <div className={classes.project}>

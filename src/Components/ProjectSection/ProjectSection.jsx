@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './ProjectSection.module.css';
+import ProjectShowcase from './ProjectShowcase/ProjectShowcase';
 
 const ProjectSection = (props) => {
   return (
@@ -7,7 +8,7 @@ const ProjectSection = (props) => {
       {/* <div className={classes.projectsHeaderContainer}>
         <h2 className={classes.projectSectionHeader}>Projects</h2>
       </div> */}
-      {props.children}
+      <ProjectShowcase />
     </div>
   )
 }
