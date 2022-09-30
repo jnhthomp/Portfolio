@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import AboutSection from './Components/AboutSection/AboutSection';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
 import ProjectShowcase from './Components/ProjectSection/ProjectShowcase/ProjectShowcase';
+import SkillsSection from './Components/SkillsSection/SkillsSection';
 
 function App(){
   
@@ -13,12 +14,12 @@ function App(){
       <Navbar />
       {/* Group about section and projects with same background */}
       <div className={baseClasses.purpleSection}>
-        {/* About... */}
+        {/* About */}
         <AboutSection />
         {/* Projects */}
-        <ProjectSection>
-          <ProjectShowcase />
-        </ProjectSection>
+        <ProjectSection/>
+        {/* Skills */}
+        <SkillsSection/>
       </div>
     </React.Fragment>
   );
