@@ -1,3 +1,17 @@
-.projSectionContainer{
-  color: red;
+.projectsHeaderContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0 2rem 0;
+}
+
+h2.projectSectionHeader {
+  font-size: 3rem;
+  text-align: center;
+  border-bottom: 3px solid var(--clr-500);
+  width: fit-content;
+  padding-bottom: .25rem;
+}
+
+.projectSectionContainer {
+  padding-bottom: 5rem;
 }

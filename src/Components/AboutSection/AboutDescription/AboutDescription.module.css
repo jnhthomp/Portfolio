@@ -1,29 +1,37 @@
+.aboutDescription {
+  padding: 2rem;
+}
 .positionDescription {
   display: flex;
   flex-direction: row;
   justify-content: left;
   align-items:baseline;
   margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-family: var(--ff-header);
+  color: var(--clr-text-200)
 }
 
 .positionDescription > h3 {
   margin-right: 1rem;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .positionDescription > span {
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .selfDescription {
-  font-size: 2.25rem;
+  font-size: 1.5rem;
+  font-weight: 300;
   margin-bottom: 2rem;
+  color: var(--clr-text-200);
 }
 
 .btnText {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .resumeBtnContainer {

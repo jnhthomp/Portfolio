@@ -16,5 +16,14 @@
 
 .socHoriz > a {
   display: block;
-
 }
+
+svg path{
+  stroke: var(--clr-300);
+}
+
+.socHoriz > a:hover {
+  transform: translateY(-5px)
+}
+
+/* TODO: Add hover effects for social icon (y translate(-5) */

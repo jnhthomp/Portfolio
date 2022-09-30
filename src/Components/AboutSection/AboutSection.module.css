@@ -1,12 +1,28 @@
 /* Arrange sections of about page*/
 .aboutSectionLayout {
   display: flex;
+  flex: 1 1 0px;
+  gap: 50px;
   justify-content: space-around;
-  flex-direction: row;
-  padding-top: 50px;
+  align-items: center;
+  padding: 3rem;
 }
 
 /* Arrange sections of about page */
-.aboutSectionLayout>div {
-  width: 30%
+.aboutSectionLayout > div.container {
+  flex: 1 1 0px;
+  width: 0;
+}
+
+.aboutSectionLayout h1 {
+  text-align: right;
+  font-family: var(--ff-header);
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+}
+
+.formContainer {
+  padding: 10px 10px 10px 20px;
 }

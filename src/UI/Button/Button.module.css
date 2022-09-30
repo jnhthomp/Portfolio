@@ -1,8 +1,13 @@
 .btn {
   color: var(--clr-text-100);
-  background-color: var(--clr-accent-600);
-  width: 40%;
-  min-width: 200px;
-  align-self: center;
-  margin: 2rem
+  background: linear-gradient(215deg, var(--clr-400), var(--clr-500));
+  font-family: var(--ff-content);
+  border: none;
+  border-radius: 100vh;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1em 2em;
+  width: fit-content;
 }
+
+/* TODO: Add .btn hover effects */

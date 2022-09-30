@@ -1,0 +1,50 @@
+/* Form styles */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formLine {
+  display: flex;
+  gap: 15px;
+}
+
+/* Form label styles */
+.contactForm label {
+  color: var(--clr-text-200);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+/* Form input styles (includes standard inputs and text area*/
+.contactForm  .textInput {
+  color: var(--clr-text-100);
+  background-color: transparent;
+  width: 100%;
+  border: 1px solid var(--clr-text-200);
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 25vh;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 5px;
+  margin-bottom: 2rem;
+  letter-spacing: .15rem;
+}
+
+.contactForm  textarea.textInput{
+  height: 15vh;
+  margin-bottom: 1rem;
+}
+
+.contactForm .btnPos {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.btnText {
+  font-size: 1.5rem;
+}

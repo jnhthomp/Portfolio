@@ -1,0 +1,25 @@
+.project {
+  padding: 2rem;
+  background-color: var(--clr-950);
+  backdrop-filter: blur(100px);
+  margin: 0 1.5rem;
+  border-radius: 10px;
+  height: 100%;
+}
+.project > h5 {
+  margin: 1rem 0;
+  color: var(--clr-100);
+  font-size: 2.75rem;
+  font-weight: 300;
+  font-family: var(--ff-content);
+  line-height: 2.75rem;
+}
+
+.project > p {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.project > p > code {
+  color: var(--clr-100)
+}

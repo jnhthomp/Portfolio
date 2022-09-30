@@ -1,5 +1,5 @@
 .section {
-  height: calc(100vh - var(--nav-height));
+  min-height: calc(100vh - var(--nav-height));
   /* Allows easy change of navbar height */
 }
 
@@ -9,6 +9,11 @@
 }
 
 .purpleSection {
-  background-color: var(--clr-background-600);
+  background: linear-gradient(225deg, var(--clr-800), var(--clr-600));
+  color: var(--clr-text-100);
+}
+
+.purpleSectionAlt {
+  background: linear-gradient(315deg, var(--clr-800), var(--clr-600));
   color: var(--clr-text-100);
 }
