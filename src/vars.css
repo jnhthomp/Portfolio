@@ -1,16 +1,27 @@
 :root {
-  /* !Colors */
-  --clr-background-800: rgb(29, 36, 46);
-  --clr-background-600: rgb(28, 18, 66);
+  /*+ Colors */
+  /* Text Colors */
+  --clr-text-100: rgb(255, 255, 255); /* Pure white */
+  --clr-text-200: rgba(184, 186, 197, 0.8); /* Slight off-white w/ opacity*/
+
+  /* Colors sorted lightest to darkest */
+  --clr-100: #83fcea;
+  --clr-200: #e68289;
+  --clr-300: #5faed3;
+  --clr-400: #d85ecd;
+  --clr-500: #c6009e;
+  --clr-600: #59127c;
+  --clr-700: #20232f;
+  --clr-800: #260050;
+  --clr-900: #140045;
+  --clr-950: #20232faf; /* --clr-900 w/ opacity */
   
-  --clr-accent-100: rgb(87, 191, 199);
-  --clr-accent-400: rgba(185, 46, 190, 0.75);
-  --clr-accent-600: rgb(138, 47, 85);
-
-  --clr-text-100: rgb(255, 255, 255);
-  --clr-text-200: rgb(184, 186, 197);
-
+  /* Nav height values (to set sections to appropriate heights*/
   --nav-height: 5vh;
   --nav-min-height: 30px;
+
+  /* Default fonts */
+  --ff-header: 'Roboto Mono';
+  --ff-content: 'Montserrat';
 }
 
