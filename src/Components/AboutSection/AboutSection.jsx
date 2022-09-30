@@ -1,9 +1,8 @@
 import React from 'react';
 import classes from './AboutSection.module.css';
-import baseStyle from '../../Styles/BaseStyles.module.css'
 import ContactForm from './ContactForm/ContactForm';
 import Hero from './Hero/Hero';
-import heroImg from '../../Assets/hero1.jpg';
+import heroImg from '../../Assets/hero3.jpg';
 import AboutDescription from './AboutDescription/AboutDescription';
 
 const AboutSection = (props) => {
@@ -17,9 +16,9 @@ const AboutSection = (props) => {
     console.log('Form submitted')
   }
   return (
-    <div className={`${classes.aboutSectionLayout} ${baseStyle.section}`}>
+    <div className={`${classes.aboutSectionLayout}`}>
       {/* Start About-Left */}
-      <div className={classes.container}>
+      <div className={classes.formContainer}>
         <div className={classes.title}>
           <h1>Jonah<br/>Thompson</h1>
         </div>

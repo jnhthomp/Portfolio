@@ -8,10 +8,18 @@
   padding: 3rem;
 }
 
+.aboutSectionLayout > div.formContainer{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0px;
+  
+}
 /* Arrange sections of about page */
 .aboutSectionLayout > div.container {
   flex: 1 1 0px;
-  width: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .aboutSectionLayout h1 {

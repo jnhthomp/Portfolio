@@ -1,5 +1,9 @@
 .aboutDescription {
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
 }
 .positionDescription {
   display: flex;
@@ -37,6 +41,7 @@
 .resumeBtnContainer {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .socialsContainer {
