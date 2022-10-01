@@ -2,12 +2,12 @@ import React from 'react'
 import classes from './SkillsSection.module.css'
 import Skill from './Skill/Skill'
 //+ Logo images from 'https://github.com/devicons/devicon'
-import reactLogo from '../../Assets/react-original.svg'
-import nodeLogo from '../../Assets/nodejs-plain.svg'
-import gitLogo from '../../Assets/git-plain.svg'
-import mongodbLogo from '../../Assets/mongodb-plain.svg'
-import postgresqlLogo from '../../Assets/postgresql-plain.svg'
-import rubyOnRailsLogo from '../../Assets/rails-plain.svg'
+import reactLogo from '../../Assets/Skills/react-original.svg'
+import nodeLogo from '../../Assets/Skills/nodejs-plain.svg'
+import gitLogo from '../../Assets/Skills/git-plain.svg'
+import mongodbLogo from '../../Assets/Skills/mongodb-plain.svg'
+import postgresqlLogo from '../../Assets/Skills/postgresql-plain.svg'
+import rubyOnRailsLogo from '../../Assets/Skills/rails-plain.svg'
 
 
 const SkillsSection = () => {

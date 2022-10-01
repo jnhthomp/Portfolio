@@ -2,11 +2,11 @@ import React from 'react'
 import classes from './ProjectShowcase.module.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import alphaBlogImg from '../../../Assets/AlphaBlog2Sq.gif';
-import f1DiscordBotImg from '../../../Assets/F1DiscordBotSq.gif';
-import foodOrderAppImg from '../../../Assets/FoodOrderAppSq.gif';
-import stalksImg from '../../../Assets/StalksSq.gif';
-import timeTrialImg from '../../../Assets/TimeTrialSq.gif';
+import alphaBlogImg from '../../../Assets/Projects/AlphaBlog2Sq.gif';
+import f1DiscordBotImg from '../../../Assets/Projects/F1DiscordBotSq.gif';
+import foodOrderAppImg from '../../../Assets/Projects/FoodOrderAppSq.gif';
+import stalksImg from '../../../Assets/Projects/StalksSq.gif';
+import timeTrialImg from '../../../Assets/Projects/TimeTrialSq.gif';
 import Project from '../Project/Project';
 
 const ProjectShowcase = () => {

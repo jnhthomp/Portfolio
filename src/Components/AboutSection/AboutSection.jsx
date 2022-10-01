@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './AboutSection.module.css';
 import ContactForm from './ContactForm/ContactForm';
 import Hero from './Hero/Hero';
-import heroImg from '../../Assets/hero3.jpg';
+import heroImg from '../../Assets/Hero/hero3.jpg';
 import AboutDescription from './AboutDescription/AboutDescription';
 
 const AboutSection = (props) => {
