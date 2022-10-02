@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import AboutSection from './Components/AboutSection/AboutSection';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
 import SkillsSection from './Components/SkillsSection/SkillsSection';
+import WorkHistory from './Components/WorkHistory/WorkHistory';
 
 function App(){
   
@@ -20,6 +21,10 @@ function App(){
         {/* Skills */}
         <SkillsSection/>
       </div>
+      <div className={baseClasses.greySection}>
+        <WorkHistory />
+      </div>
+
     </React.Fragment>
   );
 }
