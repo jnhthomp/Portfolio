@@ -4,7 +4,7 @@
 }
 
 .greySection {
-  background-color: var(--clr-background-800);
+  background: var(--clr-700);
   color: var(--clr-text-100);
 }
 
