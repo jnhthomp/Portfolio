@@ -6,7 +6,7 @@ const ContactForm = (props) => {
   // TODO: Add nicer form features and custom form hook (see jtdev-component-library)
 
   return (
-    <form className={classes.contactForm} onSubmit={props.onFormSubmit} netlify>
+    <form className={classes.contactForm} netlify>
       <div className={classes.formLine}>
         <div className={classes.inputGroup}>
           <label htmlFor='nameInput'>Your Name</label>
