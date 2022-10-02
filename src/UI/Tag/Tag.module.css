@@ -1,0 +1,13 @@
+.tag {
+  width: fit-content;
+  border-radius: 100vh;
+  padding: .5rem .75rem;
+  color: var(--clr-100);
+  background: linear-gradient(215deg, var(--clr-400), var(--clr-500));
+}
+
+.tag:hover{
+  background: var(--clr-100);
+  color: var(--clr-400);
+  cursor: default;
+}
