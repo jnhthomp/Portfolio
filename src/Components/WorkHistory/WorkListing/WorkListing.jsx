@@ -27,7 +27,7 @@ const WorkListing = (props) => {
   return (
     <div className={classes.jobContainer}>
       <div className={classes.jobImage}>
-        <img src={props.img} />
+        <img src={props.img} alt={props.company + ' logo'}/>
       </div>
       <div className={classes.jobDetails}>
         <h3>{props.title}</h3>
