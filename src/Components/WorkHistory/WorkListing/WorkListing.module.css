@@ -100,9 +100,7 @@
 
   .jobImage {
     width: 100%;
-    transform: scale(1.5);
-    overflow:hidden;
-
+    /* transform: scale(1.5); */
   }
 
 }
