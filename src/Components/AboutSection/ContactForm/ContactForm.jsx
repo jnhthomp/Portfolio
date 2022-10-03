@@ -8,7 +8,7 @@ const ContactForm = (props) => {
   // TODO: Add form handling: https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
 
   return (
-    <form className={classes.contactForm} name="contact">
+    <form className={classes.contactForm} name="contact" method="post">
       <input className={classes.hide} type="hidden" name="form-name" value="contact" />
       <div className={classes.formLine}>
         <div className={classes.inputGroup}>
