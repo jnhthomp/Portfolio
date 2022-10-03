@@ -13,7 +13,7 @@
   margin-bottom: 1rem;
   font-size: 1.75rem;
   font-family: var(--ff-header);
-  color: var(--clr-text-200)
+  color: var(--clr-text-200);
 }
 
 .positionDescription > h3 {
@@ -47,4 +47,10 @@
 .socialsContainer {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 1580px) {
+  .positionDescription {
+    flex-direction: column;
+  }
 }

@@ -29,11 +29,11 @@ const AboutSection = (props) => {
       {/* End About-Left */}
       {/* Start About-Center */}
       <div className={`${classes.heroContainer} ${classes.container}`}>
-        <Hero heroImg={heroImg} />
+        <Hero heroImg={heroImg} className={classes.heroImg}/>
       </div>
       {/* End About-Center */}
       {/* Start About-Right */}
-      <div className={classes.container}>
+      <div className={`${classes.descriptionContainer} ${classes.container}`}>
         <AboutDescription />
       </div>
     </div>

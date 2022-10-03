@@ -1,3 +1,8 @@
 .round {
   border-radius: 5px;
 }
+
+.heroImg {
+  width: auto;
+  height: 100%;
+}

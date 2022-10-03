@@ -5,6 +5,8 @@ import Button from '../../../UI/Button/Button';
 const ContactForm = (props) => {
   // TODO: Add nicer form features and custom form hook (see jtdev-component-library)
 
+  // TODO: Add form handling: https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
+
   return (
     <form className={classes.contactForm} netlify>
       <div className={classes.formLine}>
@@ -28,7 +30,7 @@ const ContactForm = (props) => {
         </div>
       </div>
       <label htmlFor='messageInput'>Message</label>
-      <textarea id='messageInput' type='text' className={classes.textInput} />
+      <textarea id='messageInput' type='text' className={classes.textInput} placeholder="How can I help with your next website, company, or business?"/>
       <div className={classes.btnPos}>
         <Button buttonAction={props.onFormSubmit}><span className={classes.btnText}>Send Message</span></Button>
       </div>

@@ -34,3 +34,43 @@
 .formContainer {
   padding: 10px 10px 10px 20px;
 }
+
+@media screen and (max-width: 1542px) {
+  div.aboutSectionLayout > div.heroContainer {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1056px) {
+  div.aboutSectionLayout {
+    flex-direction: column;
+  }
+
+  div.aboutSectionLayout > div.formContainer {
+    order: 3;
+  }
+
+  div.aboutSectionLayout>div.heroContainer {
+    display: flex;
+    order: 1;
+  }
+  div.aboutSectionLayout>div.descriptionContainer {
+    order: 2;
+    margin-bottom: -10%;
+  }
+
+  div.aboutSectionLayout>div.formContainer>div.title>h1 {
+    text-align: center;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  div.aboutSectionLayout {
+    padding: 1rem;
+  }
+
+  .formContainer {
+    padding: 0;
+  }
+}
