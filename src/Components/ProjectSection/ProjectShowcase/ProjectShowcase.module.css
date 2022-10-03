@@ -13,3 +13,30 @@
   position: relative;
   position: unset !important;
 }
+
+.mobileProjects {
+  display: none;
+}
+
+@media screen and (max-width: 525px) {
+  .mobileProjects {
+      display: flex;
+      flex-direction: column;
+    }
+
+  .carouselContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+
+  .projectSlider {
+    display:none;
+  }
+
+  .mobileProjects {
+    width: 100%;
+  }
+}

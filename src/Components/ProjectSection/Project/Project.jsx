@@ -7,8 +7,10 @@ const Project = (props) => {
   return (
     <div className={classes.project}>
       <img src={props.img} alt="Project preview" />
-      <h5>{props.title}</h5>
-      {props.projDescription}
+      <div>
+        <h5>{props.title}</h5>
+        <p>{props.projDescription}</p>
+      </div>
     </div>
   )
 }

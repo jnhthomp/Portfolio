@@ -6,7 +6,7 @@
   border-radius: 10px;
   height: 100%;
 }
-.project > h5 {
+.project > div > h5 {
   margin: 1rem 0;
   color: var(--clr-100);
   font-size: 2.75rem;
@@ -15,11 +15,50 @@
   line-height: 2.75rem;
 }
 
-.project > p {
+.project > div > p {
   font-size: 1.25rem;
   font-weight: 100;
 }
 
-.project > p > code {
+.project >div> p > code {
   color: var(--clr-100)
+}
+
+@media screen and (max-width: 630px){
+  .project >div> h5{
+    font-size: 2rem;
+  }
+
+  .project > div>p {
+    font-size: .85rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .project>div>h5 {
+    font-size: 1.5rem;
+    line-height: 95%;
+    word-wrap: break-word;
+  }
+
+  .project>div>p {
+    font-size: .75rem;
+  }
+}
+
+@media screen and (max-width: 525px){
+  .project{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+    border-radius: 0;
+  }
+
+  .project > div {
+    display: flex;
+    flex-direction: column;
+  }
 }

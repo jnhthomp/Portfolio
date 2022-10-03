@@ -47,23 +47,27 @@ const ProjectShowcase = () => {
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 3000, min: 1300 },
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1300, min: 927 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 927, min: 525 },
       items: 1
+    },
+    other: {
+      breakpoint: { max: 525, min: 0 },
+      items: 0
     }
   };
 
   return (
     <div className={classes.carouselContainer}>
       <Carousel 
-        renderButtonGroupOutside={true} 
+        renderButtonGroupOutside={false} 
         responsive={responsive} 
         infinite={true} 
         className={classes.projectSlider}
@@ -95,6 +99,9 @@ const ProjectShowcase = () => {
           <p>Originally an api server to work in conjunction with the F1 Discord Bot (below), allowing users to submit time trial times for different games and tracks. It has since grown to include a React front-end with more features to come!</p>
         </div> */}
       </Carousel>
+      <div className={classes.mobileProjects}>
+        {projectCards}
+      </div>
     </div>
   )
 }
