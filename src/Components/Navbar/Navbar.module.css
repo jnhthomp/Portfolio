@@ -35,3 +35,35 @@ div.navContainer ul li.active {
   font-weight: 400;
   font-family: var(--ff-header);
 }
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 975px) {
+  .burger {
+    display: block;
+    color: var(--clr-500);
+  }
+  
+  div.navContainer > ul {
+    display: none;
+  }
+
+  div.navContainer>ul.expanded {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.navContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: var(--nav-height)
+  }
+
+  div.navContainer.hasExpanded {
+    height: 100%;
+  }
+}
