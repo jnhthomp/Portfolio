@@ -10,7 +10,7 @@ const Navbar = () => {
   }
   return (
     <div className={`${classes.navContainer} ${showMobile ? classes.hasExpanded : ''}`}>
-      <div onClick={toggleShowMobile} className={classes.burger}>&#9776;</div>
+      <div onClick={toggleShowMobile} className={classes.burger}>{showMobile ? <>&#8212;</> : <>&#9776;</> }</div>
       <ul className={showMobile ? classes.expanded : ''}>
         <li className={classes.active}>Home</li>
         <li>Projects</li>

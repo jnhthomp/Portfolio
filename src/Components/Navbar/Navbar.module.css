@@ -65,5 +65,7 @@ div.navContainer ul li.active {
 
   div.navContainer.hasExpanded {
     height: 100%;
+    flex-direction: column-reverse;
+    gap: 1rem;
   }
 }
