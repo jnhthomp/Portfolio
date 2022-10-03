@@ -1,5 +1,4 @@
 .container {
-  
   height: 700px;
   width: 100%;
   max-width: 100vw;
@@ -7,7 +6,7 @@
   justify-content: center;
 }
 
-.card {
+.overlap .card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,16 +23,16 @@
   left: 0px;
 }
 
-.card:not(:first-child) {
+.overlap .card:not(:first-child) {
   margin-left: -200px;
 }
 
-.card:hover {
+.overlap .card:hover {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
 }
 
-.card:hover~.card {
+.overlap .card:hover~.card {
   position: relative;
   left: 200px;
   transition: 0.4s ease-out;
@@ -60,7 +59,7 @@ figure img {
   transition: all .3s ease-in-out;
 }
 
-.card:hover figure img {
+.overlap .card:hover figure img {
   transform: translateY(0);
 }
 
@@ -74,7 +73,7 @@ figure img {
   font-family: var(--ff-header);
 }
 
-.card:hover .title {
+.overlap .card:hover .title {
   opacity: 1;
 }
 
@@ -86,7 +85,24 @@ figure img {
   transition: all .4s ease-in-out
 }
 
-.card:hover .description {
+.overlap .card:hover .description {
   opacity: 1;
 }
 
+.mobileSkills {
+  display: none;
+}
+
+@media screen and (max-width: 525px) {
+  .container {
+    display: none !important;
+  }
+
+  .mobileSkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

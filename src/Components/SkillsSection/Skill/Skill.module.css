@@ -79,3 +79,33 @@ figure img {
 .card:hover .description {
   opacity: 1;
 }
+
+@media screen and (max-width: 525px) {
+  .card{
+    margin: .5rem !important;
+    position: static !important;
+  }
+
+  .card:hover {
+    transform: translateY(0px);
+    transition: 0.4s ease-out;
+  }
+
+  .card:hover~.card {
+    position: static;
+    /* left: 200px; */
+    transition: 0.4s ease-out;
+  }
+  
+  .card figure img {
+    transform: translateY(0)
+  }
+
+  .card .title {
+    opacity: 1;
+  }
+
+  .card .description {
+    opacity: 1;
+  }
+}
