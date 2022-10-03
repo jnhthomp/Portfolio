@@ -64,7 +64,6 @@
   content: '\00B0';
   color: var(--clr-400);
   margin-right: .5rem;
-  
 }
 
 .jobDetails ul.responsibilityList li {
@@ -85,4 +84,25 @@
   display: flex;
   gap: 1rem;
   margin: .5rem 0 0 0;
+}
+
+@media screen and (max-width: 800px) {
+  .jobContainer{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .jobContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jobImage {
+    width: 100%;
+    transform: scale(1.5);
+    overflow:hidden;
+
+  }
+
 }
