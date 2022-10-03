@@ -24,6 +24,32 @@
   color: var(--clr-100)
 }
 
+
+.project > div > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.project > div > div > a {
+  background: var(--clr-100);
+  display: block;
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 10px;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: var(--ff-header);
+}
+
+.project > div > div > a.git{
+  background: linear-gradient(45deg, var(--clr-800), var(--clr-600));
+  color: var(--clr-100);
+}
+
+.project > div > div > a.live{
+  background: linear-gradient(45deg, var(--clr-100), var(--clr-300));
+}
+
 @media screen and (max-width: 630px){
   .project >div> h5{
     font-size: 2rem;

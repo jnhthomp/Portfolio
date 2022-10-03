@@ -33,7 +33,7 @@
   }
 
   .projectSlider {
-    display:none;
+    display:none !important; /* See if this can be turned back on with new mobile projects */
   }
 
   .mobileProjects {

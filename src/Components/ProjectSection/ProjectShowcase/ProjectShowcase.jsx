@@ -14,32 +14,50 @@ const ProjectShowcase = () => {
   const projectList = [
     { name: 'Time Trials App',
       img: timeTrialImg,
-      desc: <p>Originally an api server to work in conjunction with the F1 Discord Bot, allowing users to submit time trial times for different games and tracks. It has since grown to include a React front-end with more features to come!</p>
+      desc: <p>Originally an api server to work in conjunction with the F1 Discord Bot, allowing users to submit time trial times for different games and tracks. It has since grown to include a React front-end with more features to come!</p>,
+      gitLink: 'https://github.com/jnhthomp/time-trial-api-server',
+      liveLink: 'https://jtdev-time-trial-api.herokuapp.com/'
     },
     {
       name: 'F1 Discord Bot',
       img: f1DiscordBotImg,
-      desc: <p>An F1 bot that you can add to your discord to get up to date F1 stats and information Created using Node, Discord.js, and Ergast API - some commands include <code>/driverstandings</code>, <code>/nextrace</code>, <code>/results</code>, and more.</p>  //Includes instructions for cloning and hosting your own instance of the bot on your server.</p>
+      desc: <p>An F1 bot that you can add to your discord to get up to date F1 stats and information Created using Node, Discord.js, and Ergast API - some commands include <code>/driverstandings</code>, <code>/nextrace</code>, <code>/results</code>, and more.</p>,
+      gitLink: 'https://github.com/jnhthomp/f1-discord-bot'
     },
     {
       name: 'Restaurant App',
       img: foodOrderAppImg,
-      desc: <p>This is a react project that allows the user to create and submit an order to a fictional restaurant. It uses Firebase API to both fetch the menu data as well as submit user orders. </p> // This application taught me about using fetch requests within React to handle incoming and outgoing data. I also learned how to utilize React context in order to manage sitewide state data.</p>
+      desc: <p>This is a react project that allows the user to create and submit an order to a fictional restaurant. It uses Firebase API to both fetch the menu data as well as submit user orders. </p>,
+      gitLink: 'https://github.com/jnhthomp/practice-food-order-app',
+      liveLink: 'https://jnhthomp.github.io/practice-food-order-app/'
     },
     { name: 'Alpha Blog',
       img:  alphaBlogImg,
-      desc: <p>This is a blog site that I created using Ruby on Rails. You can view browse articles, categories, and users while anonymous. Upon acount creation you can create your own articles to display on the site. </p> // This project taught me about the MVC model in Ruby on Rails, hashing user passwords, authenticating users, and creating/managing a relational database.</p>
+      desc: <p>This is a blog site that I created using Ruby on Rails. You can view browse articles, categories, and users while anonymous. Upon acount creation you can create your own articles to display on the site. </p>,
+      gitLink: 'https://github.com/jnhthomp/alpha-blog2',
+      liveLink: 'https://alpha-blog-jt2.herokuapp.com/'
     },
     { name: 'Stalks',
       img: stalksImg,
-      desc: <p>A Ruby on Rails application which allows you to make a profile and add stock tickers to follow to your portfolio. You can also add other users to see what stocks they are interested in and tracking.</p> // This application taught me about using third party gems such as Devise for simpler user authentication and API usage in Ruby on Rails applications.</p>
+      desc: <p>A Ruby on Rails application which allows you to make a profile and add stock tickers to follow to your portfolio. You can also add other users to see what stocks they are interested in and tracking.</p>,
+      gitLink: 'https://github.com/jnhthomp/finance-tracker',
+      liveLink: 'https://finance-tracker-jt.herokuapp.com/'
     },
   ]
 
   const projectCards = projectList.map((projectDetails) => (
-      <Project title={projectDetails.name} img={projectDetails.img} projDescription={projectDetails.desc} key={projectDetails.name}/>
+      <Project 
+        title={projectDetails.name} 
+        img={projectDetails.img} 
+        projDescription={projectDetails.desc}
+        gitLink={projectDetails.gitLink || false}
+        liveLink={projectDetails.liveLink || false}
+        key={projectDetails.name} 
+      />
     )
   )
+
+  // TODO: Test responsiveness and see if carousel can be kept for mobile view now that the project cards are more responsive
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -47,11 +65,11 @@ const ProjectShowcase = () => {
       items: 5
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1300 },
+      breakpoint: { max: 3000, min: 1475 },
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1300, min: 927 },
+      breakpoint: { max: 1475, min: 927 },
       items: 2
     },
     mobile: {
