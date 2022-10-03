@@ -57,7 +57,6 @@ const ProjectShowcase = () => {
     )
   )
 
-  // TODO: Test responsiveness and see if carousel can be kept for mobile view now that the project cards are more responsive
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
