@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from './ContactForm.module.css'
-// import Button from '../../../UI/Button/Button';
+import Button from '../../../UI/Button/Button';
 
 const ContactForm = (props) => {
   // TODO: Add nicer form features and custom form hook (see jtdev-component-library)
@@ -9,6 +9,7 @@ const ContactForm = (props) => {
 
   return (
     <form className={classes.contactForm} name="contact">
+      <input className={classes.hide} type="hidden" name="form-name" value="contact" />
       <div className={classes.formLine}>
         <div className={classes.inputGroup}>
           <label htmlFor='nameInput'>Your Name</label>
@@ -33,7 +34,7 @@ const ContactForm = (props) => {
       <textarea id='messageInput' name="message" type='text' className={classes.textInput}
         placeholder="How can I help with your next website, company, or business?" />
       <div className={classes.btnPos}>
-        <button type="submit"><span className={classes.btnText}>Send Message</span></button>
+        <Button type="submit"><span className={classes.btnText}>Send Message</span></Button>
       </div>
     </form>
   )
