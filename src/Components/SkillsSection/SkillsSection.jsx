@@ -9,9 +9,6 @@ import mongodbLogo from '../../Assets/Skills/mongodb-plain.svg'
 import postgresqlLogo from '../../Assets/Skills/postgresql-plain.svg'
 import rubyOnRailsLogo from '../../Assets/Skills/rails-plain.svg'
 
-
-// TODO: Make responsive in a similar way that projects was done (add a class that will hide the current container below x screen size then create a new layout/of components so I don't have to worry about overwriting a bunch of css)s
-
 const SkillsSection = () => {
   const skillList = [
     // Add priority skills as needed here at the beginning of the array
@@ -45,46 +42,10 @@ const SkillsSection = () => {
     return <Skill logo={skillObj.logo} title={skillObj.title} description={skillObj.description} />
   }).reverse() // .reverse() so priority skills are shown top level (but to the left) will help ensure favorite skills are seen first
 
-
   return (
     <>
       <div className={`${classes.container} ${classes.overLap}`}>
         { skillsEJS }
-        {/* <div className={classes.card}>
-          <figure>
-            <img src={cardImage} alt="skill logo"></img>
-          </figure>
-          <h3 className={classes.title}>React</h3>
-          <p className={classes.description}>I prefer to use React to build clean, customizable, and maintainable front-ends</p>
-        </div>
-        <div className={classes.card}>
-          <figure>
-            <img src={cardImage} alt="skill logo"></img>
-          </figure>
-          <h3 className={classes.title}>React</h3>
-          <p className={classes.description}>I prefer to use React to build clean, customizable, and maintainable front-ends</p>
-        </div>
-        <div className={classes.card}>
-          <figure>
-            <img src={cardImage} alt="skill logo"></img>
-          </figure>
-          <h3 className={classes.title}>React</h3>
-          <p className={classes.description}>I prefer to use React to build clean, customizable, and maintainable front-ends</p>
-        </div>
-        <div className={classes.card}>
-          <figure>
-            <img src={cardImage} alt="skill logo"></img>
-          </figure>
-          <h3 className={classes.title}>React</h3>
-          <p className={classes.description}>I prefer to use React to build clean, customizable, and maintainable front-ends</p>
-        </div>
-        <div className={classes.card}>
-          <figure>
-            <img src={cardImage} alt="skill logo"></img>
-          </figure>
-          <h3 className={classes.title}>React</h3>
-          <p className={classes.description}>I prefer to use React to build clean, customizable, and maintainable front-ends</p>
-        </div> */}
       </div>
       <div className={classes.mobileSkills}>
         {skillsEJS}
