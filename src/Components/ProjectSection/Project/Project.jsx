@@ -1,6 +1,5 @@
 import React from 'react';
 import classes from './Project.module.css';
-import Button from '../../../UI/Button/Button'
 
 // TODO: Add links to github/live version
 
