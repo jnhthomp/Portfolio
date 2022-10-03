@@ -3,7 +3,7 @@ import classes from './Navbar.module.css';
 
 const Navbar = () => {
 
-  const [showMobile, setShowMobile] = useState(true)
+  const [showMobile, setShowMobile] = useState(false)
 
   const toggleShowMobile = (e) => {
     setShowMobile((prevState) => !prevState)
@@ -22,3 +22,5 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+// TODO: Add working links to navigate to sections of the page
