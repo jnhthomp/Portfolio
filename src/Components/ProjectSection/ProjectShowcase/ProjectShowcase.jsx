@@ -69,11 +69,11 @@ const ProjectShowcase = () => {
       items: 3
     },
     tablet: {
-      breakpoint: { max: 1475, min: 927 },
+      breakpoint: { max: 1475, min: 1000 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 927, min: 525 },
+      breakpoint: { max: 1000, min: 525 },
       items: 1
     },
     other: {
