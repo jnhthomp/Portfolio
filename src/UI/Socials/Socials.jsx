@@ -34,7 +34,7 @@ const Socials = (props) => {
         </svg>
       </a>
       {/* <!-- Email --> */}
-      <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+      <a href="mailto:jnh.thompson@gmail.com?subject=Feedback&body=Message">
         <svg height="100%" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M34.8333 9.16663H9.16667C7.14162 9.16663 5.5 10.8082 5.5 12.8333V31.1666C5.5 33.1917 7.14162 34.8333 9.16667 34.8333H34.8333C36.8584 34.8333 38.5 33.1917 38.5 31.1666V12.8333C38.5 10.8082 36.8584 9.16663 34.8333 9.16663Z"
