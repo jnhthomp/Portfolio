@@ -3,9 +3,7 @@ import classes from './ContactForm.module.css'
 import Button from '../../../UI/Button/Button';
 
 const ContactForm = (props) => {
-  // TODO: Add nicer form features and custom form hook (see jtdev-component-library)
-
-  // TODO: Add form handling: https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
+  // TODO: Add nicer form features and custom form hook (see jtdev-component-library), may need stateful instructions: https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/
 
   return (
     <form className={classes.contactForm} name="contact" method="post">
