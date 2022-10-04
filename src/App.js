@@ -5,6 +5,7 @@ import AboutSection from './Components/AboutSection/AboutSection';
 import ProjectSection from './Components/ProjectSection/ProjectSection';
 import SkillsSection from './Components/SkillsSection/SkillsSection';
 import WorkHistory from './Components/WorkHistory/WorkHistory';
+import Footer from './Components/Footer/Footer';
 
 function App(){
   
@@ -21,10 +22,10 @@ function App(){
         {/* Skills */}
         <SkillsSection/>
       </div>
-      <div className={baseClasses.greySection}>
+      <div className={baseClasses.greySection}> 
         <WorkHistory />
       </div>
-
+      <Footer/>
     </React.Fragment>
   );
 }
