@@ -38,8 +38,13 @@ const SkillsSection = () => {
     },
   ]
 
-  const skillsEJS = skillList.map((skillObj) => {
-    return <Skill logo={skillObj.logo} title={skillObj.title} description={skillObj.description} />
+  const skillsEJS = skillList.map((skillObj, idx) => {
+    return (
+      <Skill 
+        logo={skillObj.logo} 
+        title={skillObj.title} 
+        description={skillObj.description} 
+        key={idx} />)
   }).reverse() // .reverse() so priority skills are shown top level (but to the left) will help ensure favorite skills are seen first
 
   return (
