@@ -30,10 +30,9 @@ div.navContainer ul li {
   font-family: var(--ff-content);
 }
 
-div.navContainer ul li.active {
+.active {
   color: var(--clr-400);
   font-weight: 400;
-  font-family: var(--ff-header);
 }
 
 .burger {

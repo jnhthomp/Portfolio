@@ -44,7 +44,7 @@ const SkillsSection = () => {
 
   return (
     <>
-      <div className={`${classes.container} ${classes.overLap}`}>
+      <div className={`${classes.container} ${classes.overLap}`} id="skills">
         { skillsEJS }
       </div>
       <div className={classes.mobileSkills}>

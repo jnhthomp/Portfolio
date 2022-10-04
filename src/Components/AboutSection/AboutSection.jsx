@@ -16,7 +16,7 @@ const AboutSection = (props) => {
     console.log('Form submitted')
   }
   return (
-    <div className={`${classes.aboutSectionLayout}`}>
+    <div className={`${classes.aboutSectionLayout}`} id="about">
       {/* Start About-Left */}
       <div className={classes.formContainer}>
         <div className={classes.title}>
