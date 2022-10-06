@@ -61,19 +61,23 @@ const ProjectShowcase = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+      items: 5,
+      partialVisibilityGutter: 40
     },
     desktop: {
       breakpoint: { max: 3000, min: 1475 },
-      items: 3
+      items: 3,
+      partialVisibilityGutter: 40
     },
     tablet: {
       breakpoint: { max: 1475, min: 1000 },
-      items: 2
+      items: 2,
+      partialVisibilityGutter: 40
     },
     mobile: {
       breakpoint: { max: 1000, min: 525 },
-      items: 1
+      items: 1,
+      partialVisibilityGutter: 80
     },
     other: {
       breakpoint: { max: 525, min: 0 },
@@ -84,6 +88,9 @@ const ProjectShowcase = () => {
   return (
     <div className={classes.carouselContainer}>
       <Carousel 
+        partialVisible={true}
+        autoPlay={true}
+        autoPlaySpeed={5000}
         renderButtonGroupOutside={false} 
         responsive={responsive} 
         infinite={true} 

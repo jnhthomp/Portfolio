@@ -18,7 +18,7 @@
   display: none;
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 800px) {
   .mobileProjects {
       display: flex;
       flex-direction: column;

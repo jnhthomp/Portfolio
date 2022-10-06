@@ -49,9 +49,6 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 
 ## Issues:
 <!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
-1. Projects: Carousel isn't obvious
-    - show a part of the next items 
-    - maybe have it scroll automatically
 1. Projects: Adjust padding/margin on project list tags for mobile
 1. Work Experience: Skill chips look too much like links with hover animation 
     - remove them, they are unnecessary
