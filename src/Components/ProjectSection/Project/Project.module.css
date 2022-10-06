@@ -39,16 +39,26 @@
   text-decoration: none;
   font-weight: 500;
   font-family: var(--ff-header);
+  transition: .25s;
+}
+
+.project>div>div>a:hover {
+  scale: 1.05;
+  filter: brightness(1.25);
 }
 
 .project > div > div > a.git{
-  background: linear-gradient(45deg, var(--clr-800), var(--clr-600));
+  background: var(--clr-500);
   color: var(--clr-100);
 }
 
+
+
 .project > div > div > a.live{
-  background: linear-gradient(45deg, var(--clr-100), var(--clr-300));
+  background: var(--clr-100);
 }
+
+
 
 @media screen and (max-width: 630px){
   .project >div> h5{

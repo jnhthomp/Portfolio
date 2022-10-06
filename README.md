@@ -49,13 +49,9 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 
 ## Issues:
 <!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
-1. Projects: Github links are too close to background colors
-    - maybe make them lighter purple
 1. Projects: Carousel isn't obvious
     - show a part of the next items 
     - maybe have it scroll automatically
 1. Projects: Adjust padding/margin on project list tags for mobile
-1. Projects: Make links more obvious
-    - Add hover animations and pointer
 1. Work Experience: Skill chips look too much like links with hover animation 
     - remove them, they are unnecessary
