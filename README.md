@@ -1,72 +1,67 @@
-TODO:
-1: Add Vanta.js background main section
-# Getting Started with Create React App
+# My Portfolio 🎮
+<a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=19ZZ2aDajCwqqMiawXZRcjEKScT1z5657" alt="JTDEV" width="100%" height="auto"/> </a> 
+This website serves as a page for recruiters, hiring managers, or potential clients to view in order to learn about me, contact me, and see my experience/prior work. It was created with React and designed and created by myself from the ground up.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Application gif -->
+<!-- <a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1nQ9bFzzWO1Iuq6pjtcWAZR-Y5H_3rIxw" alt="JTDEV" width="100%" height="auto" /> </a>  -->
 
-## Available Scripts
+## How It's Made:
+**Tech used:** <!--JavaSCript =>--><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a><!--React =>--><a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="react" width="40" height="40"/></a>
+This application was bootstrapped with create-react-app. Styling is done with CSS modules. I do like styled-components as an alternative to CSS modules. However, I prefer to keep my CSS and JS separate unless I am incorporating something particularly dynamic where the JS and CSS interaction is necessary or more convenient.
 
-In the project directory, you can run:
+### How to install/use
+1. ```$npm install```
+2. ```$npm start```
 
-### `npm start`
+For deployment information see: https://facebook.github.io/create-react-app/docs/deployment
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Optimizations
+- Consider switching to Vite to bundle/run the application instead of create-react-app
+- Consider an way to have alternative themes that the user can select
+  - Although this would be 'possible' with CSS modules it would likely require importing multiple CSS modules and selecting which one to use based on a state within the app. This sounds terribly inefficient compared to styled-components which can simply dynamically select a color and can use React context to access the current theme details.
+- Fade in content on the screen instead of an instant load, may look a little nicer.
+## Lessons Learned
+- Creating dynamic layouts/content that looks good on all screens
+- Using colors, type, and spacing to create visually appealing web applications
+- Utilizing CSS animations to create more interesting web content
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Resources: 
+- Color palette: https://colorkit.co/color-palette-generator/140045-260050-59127c-c6009e-d85ecd-5faed3-e68289-83fcea/
+- Fonts: https://fonts.google.com/
 
-### `npm test`
+## Other Examples:
+Take a look at other examples from my <a href="https://jtdev.netlify.app/">portfolio</a>.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Blog Site W/ Categories and Authentification:** https://github.com/jnhthomp/alpha-blog2
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Stock Based Social Network:** https://github.com/jnhthomp/finance-tracker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Restaurant Web-Based Ordering System:** https://github.com/jnhthomp/practice-food-order-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## TODO:
+1. Add Vanta.js background main section
+2. Update favicon to something better
+3. Update footer border to either
+    1. Not go across the entire screen
+    2. Use a hard or soft gradient to display give it some flair
+      - See this stackoverflow discussion on creating such a 'border': https://stackoverflow.com/questions/49635637/hard-edged-gradient-in-css
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Issues:
+<!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
+1. Nav: On desktop 'projects' and 'skills' links will highlight when skills is clicked
+    - Try adding margin between sections as they are probably activating because both are in screen
+1. Nav: On mobile the 'skills' link doesn't work (chrome & firefox on android)
+    - Missing id on mobile container, move both skill sections into same container
+1. Nav: Add hover effects and/or pointer cursor so the user knows links are links
+    - change pointer and fade text color
+1. Projects: Github links are too close to background colors
+    - maybe make them lighter purple
+1. Projects: Carousel isn't obvious
+    - show a part of the next items 
+    - maybe have it scroll automatically
+1. Projects: Adjust padding/margin on project list tags for mobile
+1. Projects: Make links more obvious
+    - Add hover animations and pointer
+1. Work Experience: Skill chips look too much like links with hover animation 
+    - remove them, they are unnecessary
