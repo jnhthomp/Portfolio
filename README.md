@@ -42,10 +42,6 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 ## TODO:
 1. Add Vanta.js background main section
 2. Update favicon to something better
-3. Update footer border to either
-    1. Not go across the entire screen
-    2. Use a hard or soft gradient to display give it some flair
-      - See this stackoverflow discussion on creating such a 'border': https://stackoverflow.com/questions/49635637/hard-edged-gradient-in-css
 
 ## Issues:
 <!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->

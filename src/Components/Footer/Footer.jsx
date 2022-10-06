@@ -4,6 +4,7 @@ import classes from './Footer.module.css'
 const Footer = () => {
   return (
     <div className={classes.footer}>
+      <hr></hr>
       <h4>JTDEV</h4>
       <div className={classes.links}>
         <a href="https://github.com/jnhthomp">Github</a>
