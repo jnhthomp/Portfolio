@@ -41,7 +41,6 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 
 ## TODO:
 1. Add Vanta.js background main section
-2. Update favicon to something better
 
 ## Issues:
 <!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
