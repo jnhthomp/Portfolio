@@ -48,14 +48,14 @@ const SkillsSection = () => {
   }).reverse() // .reverse() so priority skills are shown top level (but to the left) will help ensure favorite skills are seen first
 
   return (
-    <>
-      <div className={`${classes.container} ${classes.overLap}`} id="skills">
+    <div id="skills">
+      <div className={`${classes.container} ${classes.overLap}`}>
         { skillsEJS }
       </div>
       <div className={classes.mobileSkills}>
         {skillsEJS}
       </div>
-    </>
+    </div>
   )
 }
 

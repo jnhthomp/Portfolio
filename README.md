@@ -49,8 +49,6 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 
 ## Issues:
 <!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
-1. Nav: On mobile the 'skills' link doesn't work (chrome & firefox on android)
-    - Missing id on mobile container, move both skill sections into same container
 1. Nav: Add hover effects and/or pointer cursor so the user knows links are links
     - change pointer and fade text color
 1. Projects: Github links are too close to background colors
