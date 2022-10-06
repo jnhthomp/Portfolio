@@ -28,6 +28,12 @@ div.navContainer > ul {
 div.navContainer ul li {
   font-weight: 300;
   font-family: var(--ff-content);
+  transition: .3s
+}
+
+div.navContainer ul li:hover {
+  color: var(--clr-100);
+  cursor: pointer;
 }
 
 .active {
