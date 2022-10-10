@@ -5,7 +5,7 @@
   border-radius: 100vh;
   padding: .5rem .75rem;
   color: var(--clr-100);
-  background: linear-gradient(215deg, var(--clr-400), var(--clr-500));
+  border: 1px solid var(--clr-500);
   text-align: center;  
   align-items: center;
   justify-content: center;
