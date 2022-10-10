@@ -70,6 +70,12 @@ svg {
     scroll-behavior: auto !important;
   }
 }
+
+/* Change cursor to pointer for all buttons */
+button {
+  cursor: pointer;
+}
+
 /* End style reset */
 /* ________________*/
 /* *Base Styles */
