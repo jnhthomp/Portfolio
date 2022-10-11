@@ -7,11 +7,19 @@ import f1DiscordBotImg from '../../../Assets/Projects/F1DiscordBotSq.gif';
 import foodOrderAppImg from '../../../Assets/Projects/FoodOrderAppSq.gif';
 import stalksImg from '../../../Assets/Projects/StalksSq.gif';
 import timeTrialImg from '../../../Assets/Projects/TimeTrialSq.gif';
+import componentLibraryImg from '../../../Assets/Projects/ComponentLibrarySq.gif';
 import Project from '../Project/Project';
 
 const ProjectShowcase = () => {
   // Array of objects containing name (string), img (imported image link), and desc (set within <p> tags - this makes adding <code> blocks around words easier)
   const projectList = [
+    {
+      name: 'Component Library',
+      img: componentLibraryImg,
+      desc: <p>A library of highly customizable and responsive React components. As I build and find interesting and useful components I add to this library so I can import them into projects as needed.</p>,
+      gitLink: 'https://github.com/jnhthomp/jtdev-react-components',
+      liveLink: 'https://incredible-bombolone-3ddb94.netlify.app/'
+    },
     { name: 'Time Trials App',
       img: timeTrialImg,
       desc: <p>Originally an api server to work in conjunction with the F1 Discord Bot, allowing users to submit time trial times for different games and tracks. It has since grown to include a React front-end with more features to come!</p>,
