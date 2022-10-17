@@ -91,3 +91,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::selection {
+  color: var(--clr-400);
+  background-color: var(--clr-100);
+}
