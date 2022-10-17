@@ -39,6 +39,11 @@
   letter-spacing: .15rem;
 }
 
+
+.contactForm textarea {
+  resize: vertical;
+}
+
 .contactForm  textarea.textInput{
   height: 15vh;
   margin-bottom: 1rem;
