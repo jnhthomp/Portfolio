@@ -87,12 +87,32 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Codeblock styling */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+/* Style highlighted content */
 ::selection {
   color: var(--clr-400);
   background-color: var(--clr-100);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--clr-700);
+  
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-400);
+  border-radius: 10px;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-500);
 }
