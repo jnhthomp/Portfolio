@@ -33,7 +33,7 @@ For deployment information see: https://facebook.github.io/create-react-app/docs
 Take a look at other examples from my <a href="https://jtdev.netlify.app/">portfolio</a>.
 
 
-**Blog Site W/ Categories and Authentification:** https://github.com/jnhthomp/alpha-blog2
+**Blog Site W/ Categories and Authentication:** https://github.com/jnhthomp/alpha-blog2
 
 **Stock Based Social Network:** https://github.com/jnhthomp/finance-tracker
 
@@ -41,7 +41,7 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 
 ## TODO:
 1. Add Vanta.js background main section
+1. Use device type package to show/hide appropriate skill cards so css isn't needed
 
 ## Issues:
-<!-- Welcome to Markdown where the the rules are made up and the numbers don't matter -->
 No known issues. Please submit any found via github issues.
