@@ -42,6 +42,7 @@ Take a look at other examples from my <a href="https://jtdev.netlify.app/">portf
 ## TODO:
 1. Add Vanta.js background main section
 1. Use device type package to show/hide appropriate skill cards so css isn't needed
+1. Add comments throughout application for easier changes
 
 ## Issues:
 No known issues. Please submit any found via github issues.
