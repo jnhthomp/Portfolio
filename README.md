@@ -3,7 +3,7 @@
 This website serves as a page for recruiters, hiring managers, or potential clients to view in order to learn about me, contact me, and see my experience/prior work. It was created with React and designed and created by myself from the ground up.
 
 <!-- Application gif -->
-<!-- <a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1nQ9bFzzWO1Iuq6pjtcWAZR-Y5H_3rIxw" alt="JTDEV" width="100%" height="auto" /> </a>  -->
+<a href="https://jtdev.netlify.app/" target="_blank" rel="noreferrer"> <img src="https://drive.google.com/uc?id=1nQ9bFzzWO1Iuq6pjtcWAZR-Y5H_3rIxw" alt="JTDEV" width="100%" height="auto" /> </a> 
 
 ## How It's Made:
 **Tech used:** <!--JavaSCript =>--><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a><!--React =>--><a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="react" width="40" height="40"/></a>
@@ -17,7 +17,7 @@ For deployment information see: https://facebook.github.io/create-react-app/docs
 
 ## Optimizations
 - Consider switching to Vite to bundle/run the application instead of create-react-app
-- Consider an way to have alternative themes that the user can select
+- Consider a way to have alternative themes that the user can select
   - Although this would be 'possible' with CSS modules it would likely require importing multiple CSS modules and selecting which one to use based on a state within the app. This sounds terribly inefficient compared to styled-components which can simply dynamically select a color and can use React context to access the current theme details.
 - Fade in content on the screen instead of an instant load, may look a little nicer.
 ## Lessons Learned
@@ -31,7 +31,6 @@ For deployment information see: https://facebook.github.io/create-react-app/docs
 
 ## Other Examples:
 Take a look at other examples from my <a href="https://jtdev.netlify.app/">portfolio</a>.
-
 
 **Blog Site W/ Categories and Authentication:** https://github.com/jnhthomp/alpha-blog2
 
