@@ -23,7 +23,7 @@ const AboutDescription = () => {
 
       {/* <!-- Resume download button --> */}
       <div className={classes.resumeBtnContainer}>
-        <Button buttonAction={onResumeClick}><span className={classes.btnText}>My Resume</span></Button>
+        <Button dataType='download' buttonAction={onResumeClick}><span className={classes.btnText}>My Resume</span></Button>
       </div>
       {/* <!-- Social links --> */}
       <div className={classes.socialsContainer}>

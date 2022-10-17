@@ -10,8 +10,8 @@ const Project = (props) => {
         <h5>{props.title}</h5>
         {props.projDescription}
         <div className={classes.links}>
-          {props.gitLink && <a href={props.gitLink} className={classes.git}>Github</a>}
-          {props.liveLink && <a href={props.liveLink} className={classes.live}>Live Site</a>}
+          {props.gitLink && <a href={props.gitLink} className={`${classes.git} interactable`} data-type="link">Github</a>}
+          {props.liveLink && <a href={props.liveLink} className={`${classes.live} interactable`} data-type="link">Live Site</a>}
         </div>
       </div>
     </div>

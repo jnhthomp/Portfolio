@@ -22,10 +22,10 @@ const Navbar = () => {
     <div className={`${classes.navContainer} ${showMobile ? classes.hasExpanded : ''}`}>
       <div onClick={toggleShowMobile} className={classes.burger}>{showMobile ? <>&#8212;</> : <>&#9776;</> }</div>
       <ul className={showMobile ? classes.expanded : ''}>
-        <li><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-200} to="about" spy={true} smooth={true} duration={500} >Home</Link></li>
-        <li><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-150} to="projects" spy={true} smooth={true} duration={500}>Projects</Link></li>
-        <li><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-200} to="skills" spy={true} smooth={true} duration={500} >Skills</Link></li>
-        <li><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-75} to="experience" spy={true} smooth={true} duration={500}>Experience</Link></li>
+        <li className="interactable" data-type="navigation"><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-200} to="about" spy={true} smooth={true} duration={500} >Home</Link></li>
+        <li className="interactable" data-type="navigation"><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-150} to="projects" spy={true} smooth={true} duration={500}>Projects</Link></li>
+        <li className="interactable" data-type="navigation"><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-200} to="skills" spy={true} smooth={true} duration={500} >Skills</Link></li>
+        <li className="interactable" data-type="navigation"><Link onSetActive={handleSetActive} activeClass={classes.active} offset={-75} to="experience" spy={true} smooth={true} duration={500}>Experience</Link></li>
       </ul>
     </div>
   )
