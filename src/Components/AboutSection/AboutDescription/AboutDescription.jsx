@@ -5,7 +5,7 @@ import Socials from '../../../UI/Socials/Socials'
 
 const AboutDescription = () => {
   // URL to hosted resume
-  const resumeURL = 'https://jtdev-asset-server.herokuapp.com/assets/docs/JonahThompsonResume.pdf'; 
+  const resumeURL = 'https://jtdev-asset-server.web.app/assets/docs/JonahThompsonResume.pdf'; 
   const onResumeClick = () => {
     // TODO: Add a fetch request here that updates a database to see how many times my resume was downloaded and when
     window.open(resumeURL, "_blank"); // navigate to hosted resume on button click
