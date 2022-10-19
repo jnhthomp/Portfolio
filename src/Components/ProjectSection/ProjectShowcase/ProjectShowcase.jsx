@@ -2,12 +2,6 @@ import React from 'react'
 import classes from './ProjectShowcase.module.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import alphaBlogImg from '../../../Assets/Projects/AlphaBlog2Sq.gif';
-import f1DiscordBotImg from '../../../Assets/Projects/F1DiscordBotSq.gif';
-import foodOrderAppImg from '../../../Assets/Projects/FoodOrderAppSq.gif';
-import stalksImg from '../../../Assets/Projects/StalksSq.gif';
-import timeTrialImg from '../../../Assets/Projects/TimeTrialSq.gif';
-import componentLibraryImg from '../../../Assets/Projects/ComponentLibrarySq.gif';
 import Project from '../Project/Project';
 
 const ProjectShowcase = () => {
@@ -15,38 +9,38 @@ const ProjectShowcase = () => {
   const projectList = [
     {
       name: 'Component Library',
-      img: componentLibraryImg,
+      img: 'https://jtdev-asset-server.web.app/ComponentLibrary/gifs/ComponentLibrarySq.gif',
       desc: <p>A library of highly customizable and responsive React components. As I build and find interesting and useful components I add to this library so I can import them into projects as needed.</p>,
       gitLink: 'https://github.com/jnhthomp/jtdev-react-components',
       liveLink: 'https://incredible-bombolone-3ddb94.netlify.app/'
     },
     { name: 'Time Trials App',
-      img: timeTrialImg,
+      img: 'https://jtdev-asset-server.web.app/TimeTrial/gifs/TimeTrialSq.gif',
       desc: <p>Originally an api server to work in conjunction with the F1 Discord Bot, allowing users to submit time trial times for different games and tracks. It has since grown to include a React front-end with more features to come!</p>,
       gitLink: 'https://github.com/jnhthomp/time-trial-api-server',
       liveLink: 'https://jtdev-time-trial-api.herokuapp.com/'
     },
     {
       name: 'F1 Discord Bot',
-      img: f1DiscordBotImg,
+      img: 'https://jtdev-asset-server.web.app/F1DiscordBot/gifs/F1DiscordBotSq.gif',
       desc: <p>An F1 bot that you can add to your discord to get up to date F1 stats and information Created using Node, Discord.js, and Ergast API - some commands include <code>/driverstandings</code>, <code>/nextrace</code>, <code>/results</code>, and more.</p>,
       gitLink: 'https://github.com/jnhthomp/f1-discord-bot'
     },
     {
       name: 'Restaurant App',
-      img: foodOrderAppImg,
+      img: 'https://jtdev-asset-server.web.app/FoodOrderApp/gifs/FoodOrderAppSq.gif',
       desc: <p>This is a react project that allows the user to create and submit an order to a fictional restaurant. It uses Firebase API to both fetch the menu data as well as submit user orders. </p>,
       gitLink: 'https://github.com/jnhthomp/practice-food-order-app',
       liveLink: 'https://jnhthomp.github.io/practice-food-order-app/'
     },
     { name: 'Alpha Blog',
-      img:  alphaBlogImg,
+      img: 'https://jtdev-asset-server.web.app/AlphaBlog/gifs/AlphaBlogSq.gif',
       desc: <p>This is a blog site that I created using Ruby on Rails. You can view browse articles, categories, and users while anonymous. Upon acount creation you can create your own articles to display on the site. </p>,
       gitLink: 'https://github.com/jnhthomp/alpha-blog2',
       liveLink: 'https://alpha-blog-jt2.herokuapp.com/'
     },
     { name: 'Stalks',
-      img: stalksImg,
+      img: 'https://jtdev-asset-server.web.app/Stalks/gifs/StalksSq.gif',
       desc: <p>A Ruby on Rails application which allows you to make a profile and add stock tickers to follow to your portfolio. You can also add other users to see what stocks they are interested in and tracking.</p>,
       gitLink: 'https://github.com/jnhthomp/finance-tracker',
       liveLink: 'https://finance-tracker-jt.herokuapp.com/'

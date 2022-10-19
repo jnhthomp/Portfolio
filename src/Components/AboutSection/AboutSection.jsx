@@ -2,7 +2,6 @@ import React from 'react';
 import classes from './AboutSection.module.css';
 import ContactForm from './ContactForm/ContactForm';
 import Hero from './Hero/Hero';
-import heroImg from '../../Assets/Hero/hero3.jpg';
 import AboutDescription from './AboutDescription/AboutDescription';
 
 const AboutSection = (props) => {
@@ -11,6 +10,7 @@ const AboutSection = (props) => {
   // 2. Add all to array
   // 3. Set timer to cycle through array to change what image is being sourced
 
+  const heroImg = 'https://jtdev-asset-server.web.app/assets/images/SelfPier.png'
   const logForm = (e) => {
     e.preventDefault()
     console.log('Form submitted')
